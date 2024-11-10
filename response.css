@@ -1,0 +1,611 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@media (max-width:1400px){
+    .text-block-row{
+        width: 90%;
+    }
+    .footer-panel{
+        width: 90%;
+        margin-left: 50px;
+    }
+}
+@media (max-width:1240px){
+    .text-block5{
+        flex-basis: 30%;
+        width: 35%;
+    }
+    .text-block5 p{
+        font-size: 18px;
+    }
+    .text-block5 h4{
+        font-size: 45px;
+        width: 450px;
+}
+}
+@media (max-width:1272px){
+    .testimonial{
+        width: 80%;
+        
+    }
+    .review p{
+        font-size: 20px;
+    }
+    .person{
+        width: 400px;
+        height: 400px;
+        margin-left: 10px;
+    }
+}
+@media (max-width:1170px){
+    .text-block1 h1{
+        font-size: 55px;
+    }
+    .pills{
+        font-size: 17px;
+        padding: 10px 0px 10px 0px;
+    }
+    .text-block3 h4{
+        font-size: 40px;
+    }
+}
+@media (max-width:1180px){
+    .icon1 , .icon2 ,.icon3 ,.icon4{
+margin: 28px 0 0 20px;
+    }
+    .box h5{
+        font-size: 20px;
+    }
+}
+@media (max-width:1100px){
+    .pill-1{
+        width: 220px;
+    }
+    .pill-2{
+        width: 200px;
+    
+    }
+    .pill-3{
+        width: 255px;
+        
+    }
+    .pill-4{
+        width: 148px;
+    }
+    .pill-5{
+        width: 218px;
+       
+    }
+    .pill-6{
+        width: 220px;
+        
+    
+    }
+}
+@media (max-width:1040px){
+    .pills1 , .pills2 , .pills4 , .pills5{
+        width: 150px;
+        
+        }
+        .pills3 ,.pills6{
+            width: 190px;
+        }
+        .text-block6{
+            justify-content: space-around;
+            flex-basis: 45%;
+        }
+    }
+    @media (max-width:1085px){
+        .testimonial{
+            justify-content: space-around;
+        }
+        .person{
+            width: 350px;
+            height: 350px;
+            background-size: contain;
+        }
+        .review{
+            flex-basis: 50%;
+        }
+        .review p{
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    }
+    @media (max-width:1085px){
+        .person{
+            width: 300px;
+            height: 300px;
+            background-size: contain;
+        }
+        .review p{
+            font-size: 18px;
+            margin-top: 15px;
+        }
+        .review h4{
+            font-size: 35px;
+        }
+    }
+    @media (max-width:1085px){
+        .review h4{
+            font-size: 30px;
+        }
+        .review h5{
+            margin-top: 15px;
+        }
+        .arrow-black , .arrow-yellow{
+            margin-top: 15px;
+        }
+        .review p {
+            line-height: 30px;
+        }
+    }
+    @media (max-width:584px){
+
+        .testimonial{
+            flex-direction: column;
+           height:auto ;
+           
+        }
+        .review{
+            width: 80%;
+        }
+        .person{
+            width: 90%;
+            height: 350px;
+      margin-bottom: 20px;
+    }
+    }
+    @media (max-width:1045px){
+        .text-block5 h4{
+            font-size: 35px;
+            width: 360px;
+        }
+        .box{
+            width: 90%;
+            height: auto;
+            padding-bottom: 15px;
+        }
+        .text-block6{
+            flex-basis: 50%;
+            justify-content: flex-start;
+            
+        }
+        .button{
+            width: 230px;
+            padding: 10px 20px 10px 20px;
+            justify-content: space-around;
+            font-size: 22px;
+        }
+    }
+    @media (max-width:840px){
+        .pill-row{
+            flex-direction: column;
+    }
+    .pill-5{
+        margin-left: 0;
+    }
+    .row{
+        flex-direction: column;
+    }
+    .pills2 , .pills4 , .pills6{
+        margin-left: 
+        0;
+        margin-top: 15px;
+    }
+}
+@media (max-width:830px){
+    .pill-1 , .pill-2 , .pill-3 ,.pill-4 ,.pill-5 ,.pill-6{
+        font-size: 14px;
+    }
+    .pill-1{
+        width: 170px;
+    }
+    .pill-2{
+        width: 155px;
+    
+    }
+    .pill-3{
+        width: 220px;
+        
+    }
+    .pill-4{
+        width: 120px;
+    }
+    .pill-5{
+        width: 180px;
+       
+    }
+    .pill-6{
+        width: 180px;
+    }   
+    .footer-panel h4{
+        font-size: 35px;
+    }
+}
+@media (max-width:780px){
+    .text-block6{
+        flex-direction: column;
+        justify-content: center;
+        align-items: flex-end;
+        margin-top: 220px;
+    }
+    .column2{
+margin-top: -100px;
+    }
+    .column1 , .column2{
+        width: 70%;
+    }
+    .testimonial{
+        bottom: 220px;
+    }
+    .text-block7{
+        margin-top: 200px;
+    }
+    .text-block8{
+        margin-top: 150px;
+    }
+}
+@media (max-width:890px){
+     .box p{
+        font-size: 14px;
+    }
+    .footer-panel-end {
+        width: 60%;
+    }
+    .footer-panel{
+        flex-direction: column;
+        justify-content: flex-start;
+    }
+    .footer-panel h4{
+        width: auto;
+    }
+}
+@media (max-width:970px){
+    .black-panel2 , .slant , .slant-black{
+    height: 1600px;
+    }
+    .footer-panel{
+        top: 6600px;
+    }
+}
+@media (max-width:660px){
+    .black-panel2 , .slant , .slant-black{
+    height: 2200px;
+    }
+    .footer-panel{
+        top: 7220px;
+    }
+}
+@media (max-width:900px){
+    .information h3{
+        font-size: 45px;
+    }
+    .information h5{
+        font-size: 20px;
+    }
+    .information-block-small h5{
+        font-size: 20px;
+    }
+    .black-panel2 , .slant , .slant-black{
+        height: 1100px;
+        }
+        .footer-panel{
+            top: 6300px;
+        }
+}
+@media (max-width:606px){
+    .text-block-row{
+        flex-direction: column-reverse;
+        width: 90%;
+    }
+    .yellow-panel , .slant1 {
+        top: 1450px;
+    }
+    .text-block1{
+      width: 90%;
+      margin-top: -80px;
+
+    }
+    .text-block2{
+        margin-top: -60px;
+    }
+    .text-block1 h1{
+        line-height: 65px;
+        width: auto;
+    }
+    .pills1 , .pills2 , .pills4 , .pills5{
+        width: 200px;
+        
+        }
+        .pills3 ,.pills6{
+            width: 240px;
+        }
+        .button{
+            border-radius: 5000px;
+        background: var(--yellow-f-9-b-800, #F9B800);
+        display: flex;
+        width: 320px;
+        padding: 18px 40px 18px 40px;
+        justify-content: space-between;
+        align-items: center;
+        margin-top: 60px;
+        color: var(--dark-262626, #262626);
+        
+        /* Website/Button */
+        font-family: Segoe UI;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: normal;
+        }
+        .text-block3{
+            width: 90%;
+        }
+        .b2{
+            border-radius: 5000px;
+        background: var(--dark-262626, #262626);
+        color: #fff;
+        }
+        .black-panel , .slant2{
+            top: 2750px;
+            height: 2200px;
+        }
+        
+        .yellow-panel2 , .slant3 {
+           top: 4900px; 
+           height: 1900px;
+        }
+        .slant4 , .slant-black , .black-panel2 {
+            top: 6600px;
+            height: 1800px;
+        }
+        .text-block6{
+            width: 100%;
+            justify-content: center;
+            align-items: center;
+        }
+        .text-block5{
+            margin-top: 150px;
+            width: 90%;
+        }
+        .testimonial{
+            bottom: 300px;
+        }
+        .text-block7{
+            margin-top: 
+            -30px;
+            width: 90%;
+        }
+        .box{
+           padding: 0 0 40px 20px;
+        }
+        .text-block-row-black{
+            margin-top: -100px;
+        }
+        .pill-1{
+            width: 320px;
+            margin-top: 30px ;
+            font-size: 18px;
+        }
+        .pill-2{
+            width: 260px;
+            margin-top: 20px ;
+            font-size: 18px;
+        }
+        .pill-3{
+            width: 320px;
+            margin-top: 20px ;
+            font-size: 18px;
+        }
+        .pill-4{
+            width: 210px;
+            margin-top: 20px ;
+            font-size: 18px;
+        }
+        .pill-5{
+            width: 290px;
+            margin-top: 20px ;
+               font-size: 18px; 
+        }
+        .pill-6{
+            width: 295px;
+            margin-top: 20px ;
+            font-size: 18px;
+        }
+        .footer-panel{
+            top: 8800px;
+        }
+        .text-block-row.text-block-row1 {
+            padding: 20px 0 20px 0;
+}
+.yellow-panel , .slant1 , .black-panel , .slant2 , .yellow-panel2 , .slant3 , .black-panel2 , .slant4 , .slant-black {
+    width: 100%;
+}
+}
+@media (max-width:500px){
+    .logo{
+        margin: 0;
+        margin-left: 20px;
+    }
+    .text-block5 h4{
+        width: auto;
+    }
+    .pill-1 , .pill-2 , .pill-3 ,.pill-4 ,.pill-5 ,.pill-6{
+        font-size: 15px;
+    }
+    .pill-1{
+        width: 190px;
+    }
+    .pill-2{
+        width: 175px;
+    
+    }
+    .pill-3{
+        width: 240px;
+        
+    }
+    .pill-4{
+        width: 130px;
+    }
+    .pill-5{
+        width: 200px;
+       
+    }
+    .pill-6{
+        width: 200px;
+    }   
+    .footer-panel h4{
+        font-size: 35px;
+    }
+    .button{
+        width: 230px;
+        padding: 10px 20px 10px 20px;
+        justify-content: space-around;
+        font-size: 22px;
+    }
+    .testimonial{
+        height: 750px;
+    }
+    .person{
+        width: 300px;
+        height: 300px;
+    }
+}
+@media (max-width:385px){
+    .person{
+        width: 250px;
+        height: 250px;
+      margin: auto;
+    }
+}
+@media (max-width:584px){
+    .slant4, .slant-black, .black-panel2 {
+        top: 6700px;
+    }
+}
+@media (max-width:340px){
+    .pill-1 , .pill-2 , .pill-3 ,.pill-4 ,.pill-5 ,.pill-6{
+        font-size: 14px;
+    }
+    .pill-1{
+        width: 170px;
+    }
+    .pill-2{
+        width: 155px;
+    
+    }
+    .pill-3{
+        width: 220px;
+        
+    }
+    .pill-4{
+        width: 120px;
+    }
+    .pill-5{
+        width: 180px;
+       
+    }
+    .pill-6{
+        width: 180px;
+    }   
+    .pills1 , .pills2 , .pills4 , .pills5{
+        width: 150px;
+        
+        }
+        .pills3 ,.pills6{
+            width: 190px;
+        }
+        .button {
+            width: 200px;
+            padding: 8px 15px 8px 15px;
+            justify-content: space-around;
+            font-size: 20px;
+        }
+        .person{
+            width: 200px;
+            height: 200px;
+            margin: auto;
+            
+        }
+        .review{
+            width: 90%;
+        }
+        .review h4{
+            font-size: 24px;
+        }
+        .review p{
+            font-size: 16px;
+        }
+        .review h5{
+            font-size: 20px;
+        }
+}
+@media (max-width:360px){
+    .footer-panel{
+        top: 9000px;
+    }
+}
+@media (max-width:332px){
+    .black-panel, .slant2 {
+        top: 2500px;
+    }
+    .yellow-panel2, .slant3{
+        top: 4700px;
+    }
+    .testimonial{
+        bottom: 180px;
+    }
+    .text-block8 {
+        margin-top: 240px;
+    }
+    .slant4, .slant-black, .black-panel2 {
+        top: 6500px;
+    }
+    .footer-panel{
+        top: 8700px;
+    }
+}
+@media (max-width:320px){
+    .slant4, .slant-black, .black-panel2 {
+        top: 6600px;
+    }
+    .yellow-panel, .slant1 {
+        top: 1250px;
+    }
+}
+@media (max-width:480px){
+    .footer-panel-end{
+        margin-left: 0;
+    }
+    .footer-panel{
+        margin-left: 20px;
+    }
+
+}
+@media (max-width:385px){
+    .slant4, .slant-black, .black-panel2 {
+        height: 1900px;
+    }
+}
+@media (max-width:365px){
+    .slant4, .slant-black, .black-panel2 {
+        height: 2200px;
+    }
+    .footer-panel {
+        top: 9100px;
+    }
+}
+@media (max-width:320px){
+    .slant4, .slant-black, .black-panel2 {
+        height: 2480px;
+    }
+    .footer-panel {
+        top: 9300px;
+    }
+}
+@media screen and (){
+    
+}
